@@ -44,9 +44,66 @@ const MapComponent = () => {
       name: "TD South Tower",
       coordinates: { lat: 43.6478, lng: -79.3812 },
       code: "E8"
+    },
+    
+    // Union Station Area
+    {
+      name: "Union Station",
+      coordinates: { lat: 43.6453, lng: -79.3806 },
+      code: "E9"
+    },
+    {
+      name: "Royal Bank Plaza",
+      coordinates: { lat: 43.6470, lng: -79.3790 },
+      code: "E8"
+    },
+    {
+      name: "Brookfield Place",
+      coordinates: { lat: 43.6476, lng: -79.3790 },
+      code: "F8"
+    },
+    
+    // Entertainment District
+    {
+      name: "Roy Thomson Hall",
+      coordinates: { lat: 43.6465, lng: -79.3859 },
+      code: "B7"
+    },
+    {
+      name: "Metro Hall",
+      coordinates: { lat: 43.6464, lng: -79.3874 },
+      code: "A7"
+    },
+    {
+      name: "CBC Broadcast Centre",
+      coordinates: { lat: 43.6444, lng: -79.3887 },
+      code: "A8"
+    },
+    
+    // Waterfront
+    {
+      name: "RBC WaterPark Place",
+      coordinates: { lat: 43.6408, lng: -79.3775 },
+      code: "E11"
+    },
+    {
+      name: "Harbour Plaza",
+      coordinates: { lat: 43.6403, lng: -79.3752 },
+      code: "E11"
+    },
+    
+    // Queen Street
+    {
+      name: "CF Toronto Eaton Centre",
+      coordinates: { lat: 43.6544, lng: -79.3807 },
+      code: "F4"
+    },
+    {
+      name: "One Queen Street East",
+      coordinates: { lat: 43.6518, lng: -79.3791 },
+      code: "G4"
     }
   ];
-
   // Function to create or update user marker
   const updateUserMarker = (position) => {
     if (!mapRef.current) return;
