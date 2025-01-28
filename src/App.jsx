@@ -3,6 +3,8 @@ import './App.css'
 import thepathLogo from './assets/the_path_logo.jpg'
 import MapComponent from './MapComponent';
 
+//import CombinedMapComponent from './CombinedMapComp';
+
 import './App.css';
 function App() {
   const [count, setCount] = useState(0)
